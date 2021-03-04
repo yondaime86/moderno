@@ -362,4 +362,44 @@
 /* end advantages */
   
 
-  
+/* Start author */
+
+.author {
+    background: url('../images/content/author-bg.jpg') center no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box {
+        max-width: 650px;
+        min-height: 215px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+        width: 100%;
+       &-title {
+           color: #fff;
+           font-size: 30px;
+           line-height: 30px;
+           margin-right: 45px;
+           max-width: 260px;
+        span {
+            @include f700;
+        }
+       }
+       &-link {
+        padding: 14px 43px;
+        background-color: #fff;
+        color: $bg;
+        font-size: 18px;
+        line-height: 36px;
+       }
+    }
+
+}
+
+
+
+/* End author */
