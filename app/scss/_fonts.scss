@@ -9,51 +9,62 @@
 }
 
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?li29oh');
-    src:  url('../fonts/icomoon.eot?li29oh#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?li29oh') format('truetype'),
-      url('../fonts/icomoon.woff?li29oh') format('woff'),
-      url('../fonts/icomoon.svg?li29oh#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-map-marker:before {
-    content: "\f041";
-  }
-  .icon-shopping-cart:before {
-    content: "\f07a";
-  }
-  .icon-phone:before {
-    content: "\f095";
-  }
-  .icon-bolt:before {
-    content: "\f0e7";
-  }
-  .icon-flash:before {
-    content: "\f0e7";
-  }
-  .icon-angle-right:before {
-    content: "\f105";
-  }
-  .icon-location-arrow:before {
-    content: "\f124";
-  }
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?2sa2hp');
+  src:  url('../fonts/icomoon.eot?2sa2hp#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2sa2hp') format('truetype'),
+    url('../fonts/icomoon.woff?2sa2hp') format('woff'),
+    url('../fonts/icomoon.svg?2sa2hp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
+}
+.icon-bolt:before {
+  content: "\f0e7";
+}
+.icon-flash:before {
+  content: "\f0e7";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-location-arrow:before {
+  content: "\f124";
+}
+
+
   
