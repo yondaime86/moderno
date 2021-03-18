@@ -10,11 +10,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?nj8zwg');
-  src:  url('../fonts/icomoon.eot?nj8zwg#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?nj8zwg') format('truetype'),
-    url('../fonts/icomoon.woff?nj8zwg') format('woff'),
-    url('../fonts/icomoon.svg?nj8zwg#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?putkrr');
+  src:  url('../fonts/icomoon.eot?putkrr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?putkrr') format('truetype'),
+    url('../fonts/icomoon.woff?putkrr') format('woff'),
+    url('../fonts/icomoon.svg?putkrr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -64,6 +64,12 @@
 }
 .icon-map-marker:before {
   content: "\f041";
+}
+.icon-edit:before {
+  content: "\f044";
+}
+.icon-pencil-square-o:before {
+  content: "\f044";
 }
 .icon-shopping-cart:before {
   content: "\f07a";
@@ -143,7 +149,3 @@
 .icon-pinterest-p:before {
   content: "\f231";
 }
-
-
-
-  

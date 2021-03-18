@@ -23,6 +23,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.14",
     "magnific-popup": "^1.1.0"
   }
