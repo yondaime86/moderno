@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $text;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $text;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media (max-width: 720px){
+    .container-fluid {
+        padding: 0 15px;
+    }
+}
+
+
+.title {
+    color: $bg;
+    @include f700;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rate-star {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.angle-right {
+    position: relative;
+    padding-left: 15px;
+    &::before {
+        content: "\f105";
+        font-size: 14px;
+        font-family: 'icomoon';
+        position: absolute;
+        left: 0;
+        color: $green;
+    }
+}
